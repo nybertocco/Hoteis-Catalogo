@@ -9,19 +9,19 @@ import CadastroHotel from "./components/register/CadastroHotel";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Hoteis-Catalogo",
     element: <Home />,
   },
   {
-    path: "/detalhes",
+    path: "/Hoteis-Catalogo/detalhes",
     element: <Details />,
   },
   {
-    path: "/editar/:id",
+    path: "/Hoteis-Catalogo/editar/:id",
     element: <EditarHotel />,
   },
   {
-    path: "/cadastro-hotel",
+    path: "/Hoteis-Catalogo/cadastro-hotel",
     element: <CadastroHotel />,
   },
   {
