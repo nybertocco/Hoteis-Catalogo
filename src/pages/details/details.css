@@ -1,0 +1,43 @@
+.container {
+    padding: 0;
+}
+
+.content {
+    display: flex;
+}
+
+.content img {
+    width: 400px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 15px 15px -3px rgba(0, 0, 0, 0.2);
+}
+
+.information {
+    padding: 5px;
+    height: 300px;
+    border-radius: 3px;
+    box-shadow: 0px 15px 15px -3px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.information h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.information p {
+    font-size: 1rem;
+}
+
+.information span {
+    font-weight: 600;
+}
+
+.dark .information {
+    background-color: #fff;
+    color: #3f3f3f;
+    box-shadow: 0px 15px 15px -3px rgba(255, 255, 255, 0.2);
+}
