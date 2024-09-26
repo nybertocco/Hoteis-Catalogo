@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     element: <EditarHotel />,
   },
   {
-    path: "/cadastro-hotel",
+    path: "/Hoteis-Catalogo/cadastro-hotel",
     element: <CadastroHotel />,
   },
   {
